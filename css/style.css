@@ -431,7 +431,9 @@ footer .containerr {
   justify-content: center;
   align-items: center;
 }
-
+.for_remove {
+  display: none;
+}
 .fotter_logo .logo {
   display: flex;
   align-items: center;

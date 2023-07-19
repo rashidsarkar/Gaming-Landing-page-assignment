@@ -50,7 +50,7 @@ margin: 15px 0;
   font-size: 0.7rem;
   
 }
-#online_game .text p , #game .tex p{
+#online_game .text p , #game .tex p , .foter_copyright p{
   font-size: 0.55rem;
   text-align: center;
 
@@ -80,9 +80,15 @@ margin: 15px 0;
 
 .play_pic .sml_img {
   /* display: none; */
-  width: 150px;
+  width: 130px;
   right: 30px;
   height: auto;
+}
+.play_pic .sml_img {
+ 
+  position: relative;
+  right: 30px;
+  bottom: 120px;
 }
 #game .main{
   display: grid;
@@ -120,6 +126,8 @@ footer{
 .foter_menu ul{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+
 }
 .foter_menu li {
   color: #fff;
@@ -130,6 +138,55 @@ footer{
   font-weight: 600;
   line-height: normal;
   cursor: pointer;
+}
+.foter_icon {
+  margin: 16px 0;
+  /* background-color: red; */
+  /* width: 320px; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+  gap: 10px;
+}
+.foter_icon button {
+  height: 30px;
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.foter_descrip {
+  /* margin: 20px 0; */
+  margin-bottom: 15px;
+}
+.foter_descrip li {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.foter_descrip li {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 0.7rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 8px;
+  line-height: normal;
+}
+.foter_descrip ul {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 0;
+}
+.for_remove{
+  display: block;
 }
 /* tablet or mid  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
