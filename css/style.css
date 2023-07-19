@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
+
   /* box-sizing: border-box; */
 }
 .container {
-  width: 1320px;
+  width: 100%;
+  max-width: 1320px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 li {
   list-style: none;
@@ -23,6 +26,9 @@ li {
   margin: 50px 0;
 }
 /* comon css  */
+.hide {
+  display: none;
+}
 
 /* nav css start */
 #navbar {
@@ -44,7 +50,7 @@ li {
 #navbar .logo h3 {
   text-align: center;
   font-family: Work Sans;
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -67,7 +73,7 @@ li {
   color: #3c354f;
   text-align: center;
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -135,7 +141,7 @@ li {
   color: #0b0223;
   /* text-align: center; */
 
-  font-size: 48px;
+  font-size: 3rem;
 
   font-weight: 600;
 
@@ -144,7 +150,7 @@ li {
 .baner_text h2 {
   /* text-align: center; */
   font-family: Work Sans;
-  font-size: 95px;
+  font-size: 5.9375rem;
 
   font-weight: 800;
 
@@ -158,7 +164,7 @@ li {
   color: #534c64;
   /* text-align: center; */
   font-family: Work Sans;
-  font-size: 20px;
+  font-size: 1.25rem;
 
   font-weight: 500;
   line-height: normal;
@@ -205,7 +211,7 @@ li {
   color: #0b0223;
 
   font-family: Work Sans;
-  font-size: 40px;
+  font-size: 2.5rem;
 
   font-weight: 700;
 }
@@ -281,7 +287,7 @@ li {
   font-weight: 500;
   /* line-height: 30px; */
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 #online_game .game_contenter {
   /* display: grid;
@@ -315,7 +321,7 @@ li {
 }
 
 .play_text h3 {
-  font-size: 42px;
+  font-size: 2.625rem;
 
   font-weight: 700;
   line-height: 60px; /* 125% */
@@ -327,7 +333,7 @@ li {
 .play_text h4 {
   color: #0b0223;
 
-  font-size: 42px;
+  font-size: 2.625rem;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
@@ -336,7 +342,7 @@ li {
   color: #534c64;
   text-align: right;
   font-family: Work Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
 
   font-weight: 400;
   line-height: 30px;
@@ -398,7 +404,7 @@ li {
 #game .tex p {
   color: #0b0223;
   font-family: Work Sans;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -457,7 +463,7 @@ footer .container {
   color: #fff;
   text-align: center;
   font-family: Work Sans;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -495,7 +501,7 @@ footer .container {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-family: Work Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -504,7 +510,7 @@ footer .container {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-family: Work Sans;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;

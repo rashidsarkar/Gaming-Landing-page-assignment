@@ -1,0 +1,81 @@
+@media screen and (max-width: 576px) {
+  body{
+    padding: 10px 15px;
+  }
+  .container{
+    padding: 0;
+  }
+#navbar .main , #navbar .main .menu ul {
+flex-direction: column;
+}
+#navbar .main .menu ul li {
+
+font-size: 16px;
+margin: 15px 0;
+
+
+}
+
+/* baner part start  */
+.banaer_pic , .overlay_main {
+  margin: 0;
+  width: auto;
+}
+#banar .main , #play .main {
+  grid-template-columns: repeat(1, 1fr);
+  
+
+
+}
+
+
+.baner_text h3 , #online_game .title h2 ,.play_text h3,.play_text h4 {
+
+  text-align: center;
+  font-size: 1.4rem;
+
+
+}
+.baner_text h2 {
+  text-align: center;
+ 
+  font-size: 3.9375rem;
+
+ 
+}
+.baner_text p, #online_game .title p,.play_text p {
+
+  text-align: center;
+
+  font-size: 0.7rem;
+  
+}
+#online_game .text p{
+  font-size: 0.55rem;
+  text-align: center;
+
+}
+.remove_need{
+  display: none;
+}
+.play_text h4{
+  line-height: normal;
+}
+.play_pic {
+  width: 250px;
+  margin: 0 auto;
+}
+.play_pic img {
+ 
+  width: 100%;
+  height: auto;
+}
+
+.play_pic .sml_img {
+  /* display: none; */
+  width: 150px;
+  right: 30px;
+  height: auto;
+}
+/* tablet or mid  */
+@media screen and (min-width: 576px) and (max-width: 960px) {
