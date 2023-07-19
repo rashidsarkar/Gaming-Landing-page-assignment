@@ -19,6 +19,9 @@ li {
   color: #fff;
   margin: 2px 5px;
 }
+.new-section {
+  margin: 50px 0;
+}
 /* comon css  */
 
 /* nav css start */
@@ -76,6 +79,7 @@ li {
   align-items: center;
   padding: 18px 8px;
   justify-content: center;
+  margin-right: 0 !important;
 }
 .icon_menu img {
   height: 24px;
@@ -95,9 +99,13 @@ li {
 }
 .banaer_pic {
   width: 500px;
+  margin-left: 100px;
 }
 .banaer_pic img {
   width: 100%;
+}
+.overlay_main {
+  margin-right: 202px;
 }
 .banaer_content {
 }
@@ -126,18 +134,18 @@ li {
   /* text-align: center; */
   font-family: Work Sans;
   font-size: 48px;
-  font-style: normal;
+
   font-weight: 600;
-  line-height: normal;
+
   text-transform: uppercase;
 }
 .baner_text h2 {
   /* text-align: center; */
   font-family: Work Sans;
   font-size: 95px;
-  font-style: normal;
+
   font-weight: 800;
-  line-height: normal;
+
   text-transform: uppercase;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
 
@@ -149,7 +157,7 @@ li {
   /* text-align: center; */
   font-family: Work Sans;
   font-size: 20px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: normal;
   margin: 10px 0;
@@ -175,3 +183,106 @@ li {
   background: #4ec5f7;
 }
 /* baner part end  */
+/* online game part start  */
+#online_game {
+}
+#online_game .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#online_game .title p {
+  color: #534c64;
+
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+#online_game .title h2 {
+  color: #0b0223;
+
+  font-family: Work Sans;
+  font-size: 40px;
+
+  font-weight: 700;
+}
+#online_game .title h2 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#online_game .game_content {
+  position: relative;
+  border-radius: 16px;
+  width: 250px;
+  margin: 10px;
+  overflow: hidden;
+}
+#online_game .game_content .pic {
+  position: relative;
+}
+#online_game .game_content .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#online_game .game_content .overlay .icon {
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+#online_game .game_content .overlay .icon p {
+  text-align: center;
+
+  font-size: 20px;
+
+  font-weight: 600;
+
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#online_game .game_content .overlay .icon img {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+}
+#online_game .game_content .pic:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
+
+#online_game .game_content .pic img {
+  width: 100%;
+  display: block;
+}
+#online_game .game_content .pic:hover {
+  border: 2px solid #f948b2;
+}
+
+#online_game .text {
+  /* font-size: 20px; */
+  color: #534c64;
+  font-weight: 500;
+  /* line-height: 30px; */
+  margin-top: 10px;
+  font-size: 15px;
+}
+#online_game .game_contenter {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  justify-content: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
