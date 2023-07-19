@@ -39,6 +39,7 @@ li {
 #navbar .main .logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 #navbar .logo h3 {
   text-align: center;
@@ -70,6 +71,7 @@ li {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  cursor: pointer;
 }
 .icon_menu {
   display: flex;
@@ -178,6 +180,7 @@ li {
   border: 0;
   color: #fff;
   margin: 2px 5px;
+  cursor: pointer;
 }
 .baner_btn button:nth-child(2) {
   background: #4ec5f7;
@@ -407,3 +410,102 @@ li {
 
 /* game part end  */
 /* footer part start  */
+footer {
+  /* height: 500px; */
+  background: #0b0223;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotter_logo .logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.fotter_logo .logo h3 {
+  text-align: center;
+
+  font-size: 45px;
+
+  font-weight: 700;
+
+  color: #fff;
+}
+.fotter_logo .logo span {
+  color: #ff42a5;
+}
+.fotter_logo .logo img {
+  width: 86.041px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+.foter_menu ul {
+  display: flex;
+  gap: 50px;
+  margin-top: 25px;
+}
+.foter_menu li {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.foter_icon {
+  margin: 40px 0;
+  /* background-color: red; */
+  /* width: 320px; */
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+.foter_icon button {
+  height: 40px;
+
+  overflow: hidden;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.foter_icon img {
+  height: 100%;
+}
+.foter_descrip {
+  /* margin: 20px 0; */
+  margin-bottom: 30px;
+}
+.foter_descrip ul {
+  display: flex;
+  gap: 50px;
+}
+.foter_descrip li {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.foter_copyright p {
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
