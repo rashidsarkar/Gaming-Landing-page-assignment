@@ -378,7 +378,7 @@ li {
   display: flex;
   justify-content: center;
   gap: 30px;
-  width: 1055px;
+  max-width: 1055px;
 
   margin: 0 auto;
   flex-wrap: wrap;
@@ -423,8 +423,9 @@ footer {
   justify-content: center;
   align-items: center;
   height: 60vh;
+  width: 100%;
 }
-footer .container {
+footer .containerr {
   display: flex;
   flex-direction: column;
   justify-content: center;

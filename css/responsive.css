@@ -50,7 +50,7 @@ margin: 15px 0;
   font-size: 0.7rem;
   
 }
-#online_game .text p{
+#online_game .text p , #game .tex p{
   font-size: 0.55rem;
   text-align: center;
 
@@ -64,6 +64,13 @@ margin: 15px 0;
 .play_pic {
   width: 250px;
   margin: 0 auto;
+  height: auto;
+}
+.play_pic {
+  width: 250px;
+  margin: 0 auto;
+  height: auto;
+  height: 264px;
 }
 .play_pic img {
  
@@ -76,6 +83,53 @@ margin: 15px 0;
   width: 150px;
   right: 30px;
   height: auto;
+}
+#game .main{
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  gap: 0;
+ row-gap: 10px;
+}
+#game .pic {
+  width: 22px;
+  margin-right: 5px;
+}
+#game .item{
+ gap: 0;
+ padding: 0;
+}
+.new-section{
+  margin: 5px 0;
+}
+footer{
+  display: block;
+  width: 100%;
+}
+.fotter_logo .logo h3 {
+
+  font-size: 27px;
+
+}
+.fotter_logo .logo img {
+  width: 53.041px;
+  height: auto;
+  
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.foter_menu ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.foter_menu li {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
 }
 /* tablet or mid  */
 @media screen and (min-width: 576px) and (max-width: 960px) {
