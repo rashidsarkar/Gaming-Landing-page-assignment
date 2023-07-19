@@ -132,7 +132,7 @@ li {
 .baner_text h3 {
   color: #0b0223;
   /* text-align: center; */
-  font-family: Work Sans;
+
   font-size: 48px;
 
   font-weight: 600;
@@ -218,9 +218,11 @@ li {
   width: 250px;
   margin: 10px;
   overflow: hidden;
+  border-bottom-left-radius: 0;
 }
 #online_game .game_content .pic {
   position: relative;
+  border-radius: 16px;
 }
 #online_game .game_content .overlay {
   position: absolute;
@@ -234,6 +236,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 16px;
 }
 
 #online_game .game_content .overlay .icon {
@@ -286,3 +289,71 @@ li {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/* online part end  */
+/* play part start  */
+#play {
+}
+#play .main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.play_content {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play_content .play_text {
+  width: 300px;
+  /* background-color: red; */
+  text-align: right;
+}
+
+.play_text h3 {
+  font-size: 42px;
+
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play_text h4 {
+  color: #0b0223;
+
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+.play_text p {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 15px;
+
+  font-weight: 400;
+  line-height: 30px;
+}
+.play_pic {
+  height: 500px;
+}
+.play_pic img {
+  height: 100%;
+}
+.play_pic .sml_img {
+  height: 200px;
+  position: relative;
+  right: 80px;
+  bottom: 160px;
+}
+
+.play_pic .sml_img img {
+  height: 100%;
+}
+
+/* play part end  */
+/* games part start  */
