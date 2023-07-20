@@ -121,6 +121,7 @@
   footer {
     display: block;
     width: 100%;
+    height: auto;
   }
 
   .fotter_logo .logo h3 {
