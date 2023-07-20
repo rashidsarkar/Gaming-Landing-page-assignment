@@ -219,26 +219,39 @@
     padding: 0;
   }
 
-  #navbar .main,
-  #navbar .main .menu ul {
-    flex-direction: column;
-  }
-
   #navbar .main .menu ul li {
     font-size: 16px;
     margin: 15px 0;
   }
+  /* new  */
+  #navbar .logo img {
+    width: 65.041px;
+    height: 29px;
+  }
+  #navbar .logo h3 {
+    font-size: 1.5rem;
+  }
+  #navbar .main .menu ul li {
+    font-size: 13px;
+    margin: 0;
+  }
+  .icon_menu img {
+    margin-left: 10px;
+  }
+  .icon_menu {
+    width: 203px;
 
+    padding: 10px 0px;
+  }
+  #navbar .main .menu ul {
+    column-gap: 10px;
+  }
+  /* new  */
   /* baner part start  */
   .banaer_pic,
   .overlay_main {
     margin: 0;
     width: auto;
-  }
-
-  #banar .main,
-  #play .main {
-    grid-template-columns: repeat(1, 1fr);
   }
 
   .baner_text h3,
@@ -309,6 +322,9 @@
     bottom: 120px;
   }
 
+  #game {
+    margin-top: 43px;
+  }
   #game .main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -333,8 +349,13 @@
   footer {
     display: block;
     width: 100%;
+    height: auto;
+    padding-bottom: 26px;
   }
 
+  .fotter_logo {
+    margin-top: 25px;
+  }
   .fotter_logo .logo h3 {
     font-size: 27px;
   }
@@ -346,12 +367,12 @@
     margin-right: 10px;
     margin-top: 5px;
   }
-
+  /* new  */
   .foter_menu ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 18px;
   }
+  /* new  */
 
   .foter_menu li {
     color: #fff;
@@ -369,11 +390,9 @@
     /* background-color: red; */
     /* width: 320px; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 17px;
   }
-
   .foter_icon button {
     height: 30px;
     overflow: hidden;
@@ -412,11 +431,7 @@
   .foter_descrip ul {
     /* display: flex; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0;
-  }
-
-  .for_remove {
-    display: block;
   }
 }
